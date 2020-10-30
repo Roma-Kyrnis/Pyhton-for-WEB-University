@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:100"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="{% static "style.css" %}" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+  </head>
+
+  <body>
+    <!-- PAGE STUFF -->
+    <div class="rela-block page">
+      <div class="rela-block top-bar">
+        <div class="caps name"><div class="abs-center">Кирнос Роман</div></div>
+      </div>
+      <div class="side-bar">
+        <div class="center">
+          <div class="logo">
+            <img class="my-photo" src="./images/myPhoto.jpg" alt="My photo" />
+          </div>
+        </div>
+        <p>Чехова 42</p>
+        <p>Украина, Черкассы 18000</p>
+        <p>+38 012 345 6789</p>
+        <p>emailsareforsquares@gmail.com</p>
+        <br />
+        <p class="rela-block social telegram">
+          <a class="telegram" href="https://t.me/Roman_Corazon">My Telegram</a>
+        </p>
+        <p class="rela-block social facebook">
+          <a
+            class="facebook"
+            href="https://www.facebook.com/profile.php?id=100008007841866"
+            >Facebook</a
+          >
+        </p>
+        <p class="rela-block caps side-header">Знания и опыт</p>
+        <p class="rela-block list-thing">Ubuntu</p>
+        <p class="rela-block list-thing">JavaScript</p>
+        <p class="rela-block list-thing">Node.js</p>
+        <p class="rela-block list-thing">C++</p>
+        <p class="rela-block caps side-header">Образование</p>
+        <p class="rela-block list-thing">Self-education</p>
+        <p class="rela-block list-thing">Masters Academy Courses</p>
+        <p class="rela-block list-thing">CHDTU</p>
+      </div>
+      <div class="rela-block content-container">
+        <h2 class="rela-block caps title">Jr Back-End Developer</h2>
+        <div class="rela-block separator"></div>
+        <div class="rela-block caps greyed">Профиль</div>
+        <p class="long-margin">
+          Еще в школе мне нравилось изучать язык программирования C++. Сначало
+          мне помогал учитель, а далее я уже сам продолжил читать книги о нем. В
+          университете я пошёл на курсы по программированию, на которых я
+          отталкивался от знаний языка C++. Здесь выучил нашёл новое для себя
+          направление - back-end разработка.
+        </p>
+        <div class="rela-block caps greyed">Опыт работы</div>
+
+        <h3>Работа #1</h3>
+        <p class="light">Первая работа описание</p>
+        <p class="justified">
+          В конце курсов по Node.js я разрабатывал проект. Наша команда состояла
+          из двух back-end и одного IOS разработчика. Я занимался разработкой
+          телеграм бота. За 4 месяца совместных усилий мы создали приложение для
+          быстрого тестирования -
+          <a
+            class="quick-test"
+            href="https://18000.com.ua/strichka-novin/u-cherkasax-rozrobili-dodatok-dlya-shvidkoyi-perevirki-znan-studentiv/?fbclid=IwAR0N7CvivBnlgsIt6AAzX6fWSCF3ewPRIQABkmiiME3NC7-nDFuCHu6Jq9Y"
+            >Quick-test</a
+          >. Преподаватель скачивает себе на телефон приложение и запускает
+          тест, учащиеся подключаются с помощь телеграм бота. Далее тест
+          начинается, ученики отвечают на вопросы, а у преподователя
+          отображаются ответы в реальном времени. В конце показывается статистика, сколько
+          правильных ответов дал учащийся в телеграме, а в приложении общая статистика.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
