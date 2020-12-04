@@ -1,5 +1,5 @@
 from django import forms
 
 class UserForm(forms.Form):
-    name = forms.CharField()
-    age = forms.IntegerField()
+    Email = forms.EmailField(required=False, min_length=7, help_text="Введите свою почту")
+    Password = forms.RegexField(r"^[\w@$^*]{8,16}$", help_text="Введите свой пароль")
