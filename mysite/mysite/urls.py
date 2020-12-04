@@ -20,4 +20,5 @@ from myapp import views as v
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', v.index),
+    path('forms/', v.forms),
 ]
